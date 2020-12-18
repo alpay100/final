@@ -8,7 +8,7 @@
 .title{
     position: relative;
     float: right;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     color: white;
     font-size: 20px;
     padding: 5px 20px 5px 20px;
@@ -19,13 +19,13 @@ p{
     padding: 5px;
 }
 .bg-red{
-    background-color: red;
+    background-color: rgb(38, 0, 255);
 }
 .bg-green{
-    background-color:green;
+    background-color:rgb(207, 55, 8);
 }
 .bg-yellow{
-    background-color: yellow;    
+    background-color: rgb(13, 214, 97);    
     color: black;
 }
 h1{
@@ -73,25 +73,25 @@ h1{
        width:100%;
    }
    .container{
-        border: 2px solid red;
+        border: 2px solid rgb(55, 0, 255);
         margin:15px;
         box-sizing: border-box;
         color: white;
    }
    .lg-bg-purple{
-        background-color: purple;
+        background-color: rgb(238, 17, 17);
         color: white;
     }
     .lg-bg-pink{
-        background-color:pink;
+        background-color:rgb(12, 247, 90);
         color:black;
     }
     .lg-bg-orange{
-        background-color: orange;    
+        background-color: rgb(70, 7, 243);    
         color: black;
     }
     .lg-bg-grey{
-        background-color: grey;
+        background-color: rgb(233, 27, 198);
     }
 }
 /*Medium devices*/
@@ -136,21 +136,21 @@ h1{
         width:100%;
     }
     .container{
-        border: 2px solid green;
+        border: 2px solid rgb(53, 11, 241);
         box-sizing: border-box;
-        background-color: grey;
+        background-color: rgb(230, 72, 9);
         margin: 15px;
    }
    .md-bg-red{
-        background-color: red;
+        background-color: rgb(70, 11, 235);
         color: white;
     }
     .md-bg-green{
-        background-color:green;
+        background-color:rgb(233, 71, 7);
         color:white;
     }
     .md-bg-yellow{
-        background-color: yellow;    
+        background-color: rgb(83, 12, 248);    
         color: black;
     }
    .md-bg-grey{
@@ -212,7 +212,7 @@ h1{
         color: white;
     }
     .sm-bg-yellow{
-        background-color: yellow;    
+        background-color: rgb(105, 105, 103);    
         color: black;
     }
     .title{
@@ -227,3 +227,4 @@ h1{
         background-color: grey;
     }
 }
+
